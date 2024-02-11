@@ -4,15 +4,15 @@
 Weekly subscription cohort analysis to comprehend retention over six weeks, utilizing BigQuery and Google Spreadsheets
 
 ## Project Structure
-Explain the organization of your project, including key folders and files.
+This project aimed to perform weekly cohort analysis and study the retention rate of customers for 6 consecutive weeks based on data regarding their <kbd> subscription_start </kbd> and <kbd> subscription_end </kbd> dates.
 
-## Tools and Technologies
+## Tools used
 Big Query & Google Spreadsheets
 
 ## Data Source
-A single table containing information about your users’ subscriptions curated by the educational institute. This table contains user id, start, end dates of subscriptions and some additional customer-related information such as Country and category (desktop, mobile, tablet).
+A single table <kbd> data_analytics.subscriptions </kbd> containing information about your users’ subscriptions curated by the educational institute. This table contains user id, start, end dates of subscriptions and some additional customer-related information such as Country and category (desktop, mobile, tablet).
 
-## Code 
+## Data Processing
 SQL code snippets to get the Retention cohorts analysis chart
 ```sql
  SELECT
